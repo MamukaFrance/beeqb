@@ -1,0 +1,166 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   font-family: 'Work Sans', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   color: #A1A4AC;
+}
+
+.wrapper {
+   position: relative;
+   min-height: 100%;
+   overflow: hidden;
+   margin: 0 auto;
+   max-width: 1920px;
+}
+
+.header {
+   margin-top: 60px;
+}
+
+.container {
+   max-width: 1430px;
+   margin: 0 auto;
+   padding: 0 10px;
+}
+
+.header__inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header__logo {}
+
+.menu__list {
+   display: flex;
+   align-items: center;
+}
+
+.menu__list li {
+   list-style: none;
+}
+
+.menu__link {
+   text-decoration: none;
+   margin-right: 40px;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+   color: #FFFFFF;
+}
+
+.header__menu {
+   align-items: center;
+}
+
+.header__buton {
+   width: 135px;
+   height: 36px;
+   border-radius: 10px;
+   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.buton {
+   background: #14B45C;
+}
+
+.header__link {
+   font-size: 13px;
+   line-height: 15px;
+}
+
+.link {
+   text-decoration: none;
+   font-weight: 600;
+   color: #FFFFFF;
+}
+
+.bg-top {
+   max-width: 1920px;
+   height: 1095px;
+   background: url(../img/bg-top.svg) center center/cover no-repeat;
+}
+
+.bg-top__iphone {
+   margin: 191px 89px 0 40px;
+}
+
+.bg-top__iner {
+   display: flex;
+   margin-top: -100px;
+}
+
+.bg-top__content {
+   margin-top: 403px;
+   width: 494px;
+}
+
+.bg-top__title {
+   font-weight: 300;
+   font-size: 40px;
+   line-height: 50px;
+   color: #FFFFFF;
+}
+
+.bg-top__texte {
+   line-height: 28px;
+   margin: 30px 0 40px 0;
+}
+
+.bg-top__row {
+   display: flex;
+   align-items: center;
+}
+
+.bg-top__buton {
+   box-shadow: 0px 5px 30px rgba(50, 54, 67, 0.2);
+   border-radius: 16px;
+   width: 206px;
+   height: 52px;
+}
+
+.bg-top__play {
+   margin: 0 10px 0 30px;
+}
+
+.sevises {}
+
+.servises__title {
+   margin-top: 120px;
+   font-size: 34px;
+   line-height: 40px;
+   text-align: center;
+   color: #1C1F28;
+}
+
+.servises__row {
+   margin-top: 160px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.servises__item {
+   max-width: 320px;
+   text-align: center;
+
+}
+
+.sarvises__img {}
+
+.servises__subtitle {
+   font-size: 24px;
+   line-height: 28px;
+   color: #1C1F28;
+   margin: 43px 0 24px 0;
+}
+
+.servises__texte {
+   line-height: 19px;
+}
